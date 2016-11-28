@@ -5,8 +5,7 @@ C & Python 类型之分
 <p>1byte = 8bits;</p>
 <p>1word = 2bytes，2个字节分为高位字节和低位字节</p>
 
->C的数据类型包含7类
-
+<p>C的数据类型包含7类</p>
 1. 基本类型：char, short, int, long, float, double, bool(需要define自定义)
 2. 数组类型：int a[20];
 3. 指针类型：int *p;NULL为指针常量
@@ -17,8 +16,7 @@ C & Python 类型之分
 
 >C的存储类型包含4类：auto(局部变量)， extern（外部变量&全局变量），register（寄存器变量）， static（静态变量）
 
->Python数据类型（对象类型）
-
+<p>Python数据类型（对象类型）</p>
 1. 数字：int, float
 2. 字符串：''
 3. 布尔型：True，False
