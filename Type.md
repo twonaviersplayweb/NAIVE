@@ -6,24 +6,24 @@ C & Python 类型之分
 <p>1word = 2bytes，2个字节分为高位字节和低位字节</p>
 
 >C的数据类型包含7类
-1.基本类型：char, short, int, long, float, double, bool(需要define自定义)
-2.数组类型：int a[20];
-3.指针类型：int *p;NULL为指针常量
-4.结构类型：struct {};
-5.共用体类型：union tag {};
-6.自定义类型：typedef char ElementType;
-7.引用运算符：&（非指针运算符）
+1. 基本类型：char, short, int, long, float, double, bool(需要define自定义)
+2. 数组类型：int a[20];
+3. 指针类型：int *p;NULL为指针常量
+4. 结构类型：struct {};
+5. 共用体类型：union tag {};
+6. 自定义类型：typedef char ElementType;
+7. 引用运算符：&（非指针运算符）
 
 >C的存储类型包含4类：auto(局部变量)， extern（外部变量&全局变量），register（寄存器变量）， static（静态变量）
 
 >Python数据类型（对象类型）
-1.数字：int, float
-2.字符串：''
-3.布尔型：True，False
-4.列表：[]
-5.字典：{}
-6.元组：（）
-7.集合：set（）
+1. 数字：int, float
+2. 字符串：''
+3. 布尔型：True，False
+4. 列表：[]
+5. 字典：{}
+6. 元组：（）
+7. 集合：set（）
 
 >C是静态类型语言需要显示的声明数据类型，Python为动态类型语言不需要显示声明
 <p>静态类型语言：在编译期间就确定数据类型的语言，大多数静态类型语言是通过要求在使用任一变量之前声明其数据类型来保证这一点的</p>
