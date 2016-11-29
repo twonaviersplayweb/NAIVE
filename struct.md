@@ -46,13 +46,20 @@ ADT两个特征：数据抽象，数据封装
 <p>C实例</p>
 
 ```#define MAX 20```
+
 ```void martix(int n, int A[MAX][MAX], int B[MAX][MAX], int C[MAX][MAX]){```
+
     ```int i, j;```
+
     ```for(i = 0; i < n; i++){                       /*频度为n+1，执行n次*/```
+
         ```for(j = 0; j < n; j++)                    /*频度为n(n+1),执行n+1次*/```
+
         ```C[i][i] = A[i][j] + B[i][j]               /*n^2*/```
+
     ```}```
-```}```
+
+```}
 
 T(n) = n+1+n(n+1)+n^2 = 2n^2+2n+1
 
