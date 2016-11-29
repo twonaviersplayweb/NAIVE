@@ -1,4 +1,5 @@
 数据结构的基本知识
+==============
 
 <p>数据结构三要点</p>
 1. 数据元素之间的逻辑关系
@@ -43,8 +44,7 @@ ADT两个特征：数据抽象，数据封装
 
 
 <p>C实例</p>
-'''c
-#define MAX 20
+`#define MAX 20
 void martix(int n, int A[MAX][MAX], int B[MAX][MAX], int C[MAX][MAX])
 {
     int i, j;
@@ -53,7 +53,7 @@ void martix(int n, int A[MAX][MAX], int B[MAX][MAX], int C[MAX][MAX])
         C[i][i] = A[i][j] + B[i][j]               /*n^2*/
     }
 }
-'''
+`
 T(n) = n+1+n(n+1)+n^2 = 2n^2+2n+1
 
 
