@@ -47,7 +47,8 @@ ADT两个特征：数据抽象，数据封装
 
 ```#define MAX 20```
 
-```void martix(int n, int A[MAX][MAX], int B[MAX][MAX], int C[MAX][MAX]){```
+```void martix(int n, int A[MAX][MAX], int B[MAX][MAX], int C[MAX][MAX])```
+{
 
     int i, j;
 
@@ -58,7 +59,6 @@ ADT两个特征：数据抽象，数据封装
         C[i][i] = A[i][j] + B[i][j]               /*n^2*/
 
     }
-
 }
 
 >T(n) = n+1+n(n+1)+n^2 = 2n^2+2n+1
